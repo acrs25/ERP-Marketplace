@@ -1,0 +1,9 @@
+ # dependências do projeto
+
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+alembic
+pydantic
+weasyprint
