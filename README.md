@@ -11,8 +11,8 @@
 
 - Clientes
 
-- Vendas
+- Transacao
 
-- Itens da venda
+- Usuario
 
 ### Próximos passos: configurar ambiente, criar estrutura de pastas, iniciar modelagem
