@@ -23,7 +23,7 @@ class Cliente(Base):
     cep = Column(String, nullable=False)
 
     # Endereço: logradouro (rua, avenida, etc.)
-    logradouro = Column(String, nulllable=False)
+    logradouro = Column(String, nullable=False)
 
     # Cidade
     cidade = Column(String, nullable=False)

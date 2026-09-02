@@ -12,7 +12,7 @@ class Transacao(Base):
     # produto_id: chave estrangeira que aponta para a tabela Produto
     # Isso garante que cada transação esteja vinculada a um produto existente
 
-    produto_id = Column(Integer, ForeignKey("produto.id"), nullable=False)
+    produto_id = Column(Integer, ForeignKey("produtos.id"), nullable=False)
 
     # Relacionamento ORM: permite acessar os dados do produto diretamente
     produto = relationship("Produto")
