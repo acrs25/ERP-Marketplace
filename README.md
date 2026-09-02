@@ -15,4 +15,13 @@
 
 - Itens da venda
 
-### Próximos passos: configurar ambiente, criar estrutura de pastas, iniciar modelagem
+## Progresso atual
+- Banco PostgreSQL configurado
+- Alembic sincronizado
+- Modelos criados e migrados
+
+## Próximos passos
+- Inserir dados de teste
+- Consultar tabelas via SQL
+- Integrar SQLAlchemy com FastAPI
+
