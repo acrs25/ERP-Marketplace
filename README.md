@@ -7,13 +7,13 @@
 
 ## Módulos principais:
 
-- Produtos
+- Cliente
 
-- Clientes
+- Produto
 
-- Vendas
+- Transação
 
-- Itens da venda
+- Usuário
 
 ## Progresso atual
 - Banco PostgreSQL configurado
