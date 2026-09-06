@@ -7,12 +7,21 @@
 
 ## Módulos principais:
 
-- Produtos
+- Cliente
 
-- Clientes
+- Produto
 
-- Vendas
+- Transação
 
-- Itens da venda
+- Usuário
 
-### Próximos passos: configurar ambiente, criar estrutura de pastas, iniciar modelagem
+## Progresso atual
+- Banco PostgreSQL configurado
+- Alembic sincronizado
+- Modelos criados e migrados
+
+## Próximos passos
+- Inserir dados de teste
+- Consultar tabelas via SQL
+- Integrar SQLAlchemy com FastAPI
+
