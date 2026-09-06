@@ -1,7 +1,7 @@
 # ERP-Marketplace
-### ERP - Sistema de gestão de produtos para Marketplace
+### ERP - Sistema de gestão para Marketplace
 
-- Objetivo: Sistema de gestão de produtos, clientes e vendas para Marketplace.
+- Objetivo: Fornecer um sistema ERP voltado para a operação interna do Marketplace, com foco na gestão integrada de clientes, usuários e transações comerciais, garantindo organização, controle e eficiência nos processos da plataforma.
 
 - Stack técnica: FastAPI + SQLAlchemy + Alembic + PostgreSQL.
 
