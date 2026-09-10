@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, ForeignKey, Integer, String, Float
+from sqlalchemy.orm import relationship
 from app.database import Base
 
 # Cada classe aqui representa uma tabela no banco de dados.
@@ -25,3 +26,8 @@ class Produto(Base):
 
     # Estoque atual: quantidade disponível para venda no marketplace
     estoque_atual = Column(Integer, default=0)
+    
+    #Chave estrangeira cliente
+    cliente_id = Column(Integer, ForeignKey("clientes.id"), nullable=False)
+    cliente = relationship("Cliente", back_populates="produtos")
+    transacoes = relationship("Transacao", back_populates="produto")

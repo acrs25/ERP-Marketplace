@@ -14,7 +14,7 @@ class Cliente(Base):
 
     # CPF ou CNPJ do cliente
     # Usado para identificação fiscal e emissão de notas
-    cpf_cnpj = Column(Integer, unique=True, nullable=False)
+    cpf_cnpj = Column(String, unique=True, nullable=False)
 
     # Email de contato do cliente
     email = Column(String, unique=True, nullable=False)
@@ -33,8 +33,8 @@ class Cliente(Base):
 
     # Relacionamento ORM: um cliente pode ter vários produtos
 
-    produtos = relationship("Produto", backref="cliente")
+    produtos = relationship("Produto", back_populates="cliente")
 
     # Relacionamento ORM: um cliente pode ter várias transações
 
-    transacoes = relationship("Transacao", backref="cliente")
+    transacoes = relationship("Transacao", back_populates="cliente")

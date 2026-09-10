@@ -15,7 +15,11 @@ class Transacao(Base):
     produto_id = Column(Integer, ForeignKey("produtos.id"), nullable=False)
 
     # Relacionamento ORM: permite acessar os dados do produto diretamente
-    produto = relationship("Produto")
+    produto = relationship("Produto", back_populates="transacoes")
+    
+    #FK cliente
+    cliente_id = Column(Integer, ForeignKey("clientes.id"), nullable=False)
+    cliente = relationship("Cliente", back_populates="transacoes")
 
     # Data da venda: quando a transação ocorreu
     data_venda = Column(Integer, nullable=False)

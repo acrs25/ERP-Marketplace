@@ -19,9 +19,11 @@
 - Banco PostgreSQL configurado
 - Alembic sincronizado
 - Modelos criados e migrados
+- Dados de teste inseridos e validados
 
 ## Próximos passos
-- Inserir dados de teste
-- Consultar tabelas via SQL
-- Integrar SQLAlchemy com FastAPI
+- Integrar SQLAlchemy com FastAPI  
+- Criar endpoints CRUD para cada módulo  
+- Testar via Swagger UI  
+- Implementar regras de negócio (comissão, estoque, relatórios)
 
