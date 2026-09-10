@@ -25,5 +25,5 @@
 - Integrar SQLAlchemy com FastAPI  
 - Criar endpoints CRUD para cada módulo  
 - Testar via Swagger UI  
-- Implementar regras de negócio (comissão, estoque, relatórios)
+- Implementar regras de negócio
 
